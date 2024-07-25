@@ -1,5 +1,14 @@
 site_name: openshift-tigerteam
 site_url: https://openshift-tigerteam.github.io
+
+nav:
+  - Home: 'index.md'
+  - Deployment Examples:
+    - BusyBox: 'busybox.md'
+
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   logo: assets/openshift-logo.png
@@ -11,7 +20,4 @@ theme:
     - navigation.instant
     - navigation.sections
 
-nav:
-  - Home: 'index.md'
-  - Deployment Examples:
-    - BusyBox: 'busybox.md'
+
