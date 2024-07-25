@@ -2,3 +2,16 @@ site_name: openshift-tigerteam
 site_url: https://openshift-tigerteam.github.io
 theme:
   name: material
+  logo: assets/openshift-logo.png
+  palette:
+    scheme: slate
+    primary: black
+    accent: red
+  features:
+    - navigation.instant
+    - navigation.sections
+
+nav:
+  - Home: 'index.md'
+  - Deployment Examples:
+    - BusyBox: 'busybox.md'
