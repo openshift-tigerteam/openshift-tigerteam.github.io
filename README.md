@@ -1,5 +1,11 @@
 # openshift-tigerteam.github.io
 
+This is an [mkdocs](https://www.mkdocs.org) site that uses [Material for mkdocs](https://squidfunk.github.io/mkdocs-material) for it's theme. 
+
+[https://openshift-tigerteam.github.io](https://openshift-tigerteam.github.io)
+
+
+## Contributing
 After clone:
 ```shell
 python3 -m venv venv
@@ -13,7 +19,7 @@ mkdocs serve
 ```
 
 
-# project inittialization commands
+### project inittialization commands
 
 Init commands:
 ```shell
