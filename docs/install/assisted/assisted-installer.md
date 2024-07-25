@@ -4,25 +4,23 @@
 
 ### Hardware
 
-6 Nodes - 3 Control Plane, 3 Workers
+6 Nodes - 3 Control Plane, 3 Workers  
+MIN - 4 vCPU, 16 GB RAM, 100 GB install disk w/ 300 IOPS, 1 TB persistent storage disk
 
 For all nodes: 
 
 * Networking (IPAM)
     * DHCP (Recommended)
-    * Static: macaddress and IP address
+    * Static: macaddress and IP address for each machine
 * Disks
     * Install disk located at /dev/sda
-    * For worker nodes, additional disk for ODF
+    * For worker nodes, additional persistent storage disk for ODF
 
+### Networking 
+Machine subnet (/24)  
+Two VIPs (API, Ingress)
 
-### DNS
-
-Two VIPs Needed
-
-  * API: 
-  * Ingress: 
-
+<br/>
 
 # Install
 
@@ -33,9 +31,21 @@ Go to <a href="https://console.redhat.com/openshift/assisted-installer" target="
 Move to Datacenter tab and click on Create Cluster
 
 ![alt text](image-1.png)
+
+Imput the basic information about the cluster. 
+
 ![alt text](image-2.png)
+
+Don't select any operators. We will install those Day 2. 
+
 ![alt text](image-3.png)
+
+Click on the Add Hosts button to generate the ISO
+
 ![alt text](image-4.png)
+
+Select Full Image and generate the iso, then save it
+
 ![alt text](image-5.png)
 
 Boot the boxes with the generated ISO and they will show up in the host inventory.
@@ -58,7 +68,9 @@ Wait...
 
 ![alt text](image-10.png)
 
+Success!
 
+![alt text](image-11.png)
 
 
 ## Day 2 Tasks
