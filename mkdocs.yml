@@ -1,0 +1,4 @@
+site_name: openshift-tigerteam
+site_url: https://openshift-tigerteam.github.io
+theme:
+  name: material
