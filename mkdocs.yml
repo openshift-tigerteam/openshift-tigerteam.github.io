@@ -5,6 +5,7 @@ nav:
   - Home: 'index.md'
   - Installation Examples:
     - Assisted Installer: 'install/assisted/assisted-installer.md'
+    - Day 2: 'install/day-2.md'
   - Deployment Examples:
     - BusyBox: 'busybox.md'
     - Quarkus: 'quarkus-demo.md'
