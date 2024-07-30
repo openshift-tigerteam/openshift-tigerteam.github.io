@@ -17,17 +17,17 @@ spec:
           name: multipathd.service
     storage:
       files:
-      - filesystem: root
-        mode: 420
-        path: /etc/multipath.conf
-        contents:
-          inline: |
-            defaults {
-              user_friendly_names yes
-              find_multipaths yes
-            }
-            # include devices for exclusion
-            # see 
-            blacklist {
-            }
+        - filesystem: root
+          mode: 420
+          path: /etc/multipath.conf
+          contents:
+            inline: |
+              defaults {
+                user_friendly_names yes
+                find_multipaths yes
+              }
+              # include devices for exclusion
+              # see 
+              blacklist {
+              }
 ```
