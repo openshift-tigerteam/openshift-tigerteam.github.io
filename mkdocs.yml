@@ -6,6 +6,7 @@ nav:
   - Installation Examples:
     - Assisted Installer: 'install/assisted/assisted-installer.md'
     - Day 2: 'install/day-2.md'
+    - Multipath: 'install/multipath.md'
   - Deployment Examples:
     - BusyBox: 'busybox.md'
     - Quarkus: 'quarkus-demo.md'
