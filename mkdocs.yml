@@ -10,6 +10,7 @@ nav:
   - Deployment Examples:
     - BusyBox: 'busybox.md'
     - Quarkus: 'quarkus-demo.md'
+  - Tools: 'pages/tools.md'
 
 extra_css:
   - stylesheets/extra.css
