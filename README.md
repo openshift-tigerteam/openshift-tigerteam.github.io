@@ -18,6 +18,14 @@ Run locally:
 mkdocs serve
 ```
 
+Other Commands
+```shell
+pip install --upgrade pip
+pip list --outdated
+pip install pur
+pur -r requirements.txt 
+```
+
 
 ### project inittialization commands
 
